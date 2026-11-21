@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/banner.svg" alt="ifc-quantity-extractor" width="100%"></p>
+
 # ifc-quantity-extractor
 
 A quantity takeoff from a BIM model usually means opening a heavy viewer and exporting a spreadsheet. This repo reads the IFC STEP text directly with the Python standard library (no ifcopenshell), pulls the element quantities the modeler stored, and gives you totals by type, storey or material, plus a CSV with one row per element.
